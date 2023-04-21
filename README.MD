@@ -23,6 +23,18 @@ The solutions are also organized by topics to make it easier to review for inter
 ### Two Pointers
 | Question                      | Process       |
 | ----------------------------- | ------------- |
-| Valid Palindrome              |  |
-| 3Sum                          |  |
-| Container with Most Water     |  |
+| Valid Palindrome              | Convert all to lower case, use two pointers from start to end to check if palindrome, jump over alphanumerical characters. |
+| 3Sum                          | Same as 2Sum, but as you go through the array, set each number as the pivot, and look for 2Sum in the rest of the array. Sort at the beginning and ignore duplicates to bring runtime down.  |
+| Container with Most Water     | Initialize a pointer at the start and end of the array. Set new maximum produced with current start and end indices, if it's bigger than our current maxium. Next, if the value at the start pointer is less than the value at the end pointer, move it up one, else move the end pointer down one, and do this until the pointers reach other, then return the maxium 
+
+
+### Sliding Window
+| Question                      | Process       |
+| ----------------------------- | ------------- |
+| TODO                          | TODO |
+
+
+### Stack
+| Question                      | Process       |
+| ----------------------------- | ------------- |
+| Valid Parantheses             | TODO |
